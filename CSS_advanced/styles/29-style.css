@@ -521,19 +521,14 @@ h1, h2, h3, h4, h5, h6 {
     float: right;
 }
 
-nav {
+.nav {
     margin: 0;
     padding: 0;
-}
-
-nav ul {
     list-style: none;
     text-align: center;
-    margin: 0;
-    padding: 0;
 }
 
-nav .nav-item {
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -542,12 +537,12 @@ nav .nav-item {
     margin: var(--nav-item-margin);
 }
 
-nav .nav-link {
+.nav .nav-link {
     display: block;
     padding: 0.5rem 1rem;
 }
 
-nav .nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
 
@@ -661,7 +656,7 @@ ul.row {
     left: var(--header-logo-link-left);
 }
 
-nav .nav-link::before {
+.nav .nav-link::before {
     content: "";
     position: absolute;
     top: 0;
@@ -671,7 +666,7 @@ nav .nav-link::before {
     height: 20%;
 }
 
-nav .nav-item:hover .nav-link::before {
+.nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
 }
